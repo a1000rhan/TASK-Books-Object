@@ -77,7 +77,7 @@ console.log(
   ****************************************************************/
 function getBookProperty(property, book) {
   // Your code here
-  return (book.property = book);
+  return (book.property = property);
 }
 console.log(getBookProperty("color", books[0]));
 console.log(getBookProperty("title", books[0]));
